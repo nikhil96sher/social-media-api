@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+Result of your query
+
+<table style="border:solid;">
+{% for tweet in tweets %}
+	<tr>
+	<td>
+	{{ tweet }}
+	</td>
+	</tr>
+	<tr>
+	<td>
+	{{ tweet.user }}
+	</td>
+	</tr>
+	<tr>
+	<td>
+	{{ tweet.text }}
+	</td>
+	</tr>
+	<tr>
+	<td>
+	{{ tweet.time }}
+	</td>
+	</tr>
+{% endfor %}
+</table>
+
+</body>
+</html>

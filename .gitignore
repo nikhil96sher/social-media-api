@@ -1,0 +1,4 @@
+mysite/connections.py
+*.pyc
+hashtag/api.py
+hashtag/migrations/
